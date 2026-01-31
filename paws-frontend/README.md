@@ -26,7 +26,7 @@ The application relies on a central configuration file for secrets and network s
 1.  **Locate the Config**: Go to the root of the PAWS project (one level up from paws-frontend).
 2.  **Create Secrets File**:
     Copy the example secrets file:
-    `Bash
+    `bash
     cp ../config/secrets.example.json ../config/secrets.json
     `
     *(Note: If you are on Windows Command Prompt, use copy instead of cp)*
@@ -58,21 +58,21 @@ The application relies on a central configuration file for secrets and network s
 
 1.  **Install Dependencies**:
     Navigate to the paws-frontend directory and install the required packages:
-    `ash
+    `bash
     cd paws-frontend
     npm install
     `
 
 2.  **Start the Backend Server**:
     The frontend requires the local backend to store data and handle requests.
-    `ash
+    `bash
     npm run db:start
     `
     *This command runs local-db-server.js. Keep this terminal window open.*
 
 3.  **Start the Expo App**:
     Open a new terminal window, navigate to paws-frontend, and run:
-    `ash
+    `bash
     npx expo start
     `
 
