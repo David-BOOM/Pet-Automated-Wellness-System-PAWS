@@ -2,7 +2,7 @@
 
 PAWS is a comprehensive IoT solution designed to monitor and manage your pet's environment. This directory contains the frontend application built with **Expo (React Native)**, which serves as the control center for the PAWS ecosystem.
 
-## 📱 Features
+## Features
 
 - **Real-time Dashboard**: Monitor environmental metrics like Temperature, Humidity, CO2, VOC, and Water Levels.
 - **Remote Control**: Toggle lights and trigger automated feeding remotely.
@@ -10,7 +10,7 @@ PAWS is a comprehensive IoT solution designed to monitor and manage your pet's e
 - **Notifications**: Receive alerts for low water levels, abnormal sensor readings, or motion detection.
 - **Historical Data**: View charts and logs of past events and environmental trends.
 
-## 🛠 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -19,7 +19,7 @@ Before you begin, ensure you have the following installed:
 - **Expo Go** app on your iOS or Android device (or an Emulator/Simulator set up on your computer).
 - **Git**
 
-## ⚙️ Configuration
+## Configuration
 
 The application relies on a central configuration file for secrets and network settings.
 
@@ -54,7 +54,7 @@ The application relies on a central configuration file for secrets and network s
     *   **wifi**: Credentials for the Arduino hardware to connect to your network.
     *   **server**: The IP address of the machine running the local-db-server.js. **Crucial**: Ensure this IP is accessible from your phone running Expo Go.
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 1.  **Install Dependencies**:
     Navigate to the paws-frontend directory and install the required packages:
@@ -80,7 +80,7 @@ The application relies on a central configuration file for secrets and network s
     *   Scan the QR code displayed in the terminal using the **Expo Go** app on your phone.
     *   Ensure your phone and the computer are on the **same Wi-Fi network**.
 
-## 📖 How to Use
+## How to Use
 
 ### Dashboard
 Upon launching the app, you will see the main dashboard.
@@ -99,7 +99,7 @@ pm run db:start is running.
     - Ensure your phone and computer are on the same Wi-Fi.
     - Check firewall settings allowing traffic on port 4100.
 
-## 📂 Project Structure
+## Project Structure
 
 - **app/**: Main application screens (Expo Router).
 - **components/**: Reusable UI components (SensorCard, etc.).
