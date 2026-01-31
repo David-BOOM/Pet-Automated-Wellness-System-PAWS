@@ -26,7 +26,7 @@ The application relies on a central configuration file for secrets and network s
 1.  **Locate the Config**: Go to the root of the PAWS project (one level up from paws-frontend).
 2.  **Create Secrets File**:
     Copy the example secrets file:
-    `ash
+    `Bash
     cp ../config/secrets.example.json ../config/secrets.json
     `
     *(Note: If you are on Windows Command Prompt, use copy instead of cp)*
